@@ -21,6 +21,10 @@
     <link href="css/style.css" rel="stylesheet">
     <title>Home</title>
   <style>
+    body {
+      background-color: black;
+    }
+
     #carouselBasicExample, 
     .carousel-inner,
     .carousel-item,
@@ -59,7 +63,7 @@
 
 <body>
 
-  <header>
+  <header class="mb-5">
     <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
         <span class="navbar-toggler-icon"></span>
@@ -121,7 +125,7 @@
     </nav>
 <!-- Navbar -->
     <!-- Carousel wrapper -->
-    <div id="carouselBasicExample" class="carousel slide carousel-fade " data-mdb-ride="carousel" >
+    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" >
       <!-- Indicators -->
       <div class="carousel-indicators">
         <button
@@ -220,10 +224,23 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-md">One of three columns</div>
-        <div class="col-md">One of three columns</div>
-        <div class="col-md">One of three columns</div>
+        <div class="col-md-7"><div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-mdb-ripple-color="light">
+          <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" alt="Louvre" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+          </a>
+        </div>
       </div>
+      <div class="col-md-5 text-white">
+        <h3>What to know about black bird</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in justo enim. Integer vel sodales nulla. Ut eu rhoncus purus, a laoreet lacus. Nulla facilisi. Curabitur elit arcu, ornare nec augue eget, placerat aliquam lectus. Vivamus congue pulvinar mi, eleifend ultricies sapien pellentesque quis. Nam convallis tempor augue sit amet aliquet. Sed sed leo elementum, mollis nisi id, aliquam nulla. Vivamus id magna eros. Curabitur sit amet lectus lacus. </p>
+        <p>
+          <strong>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat metus at dapibus viverra. In venenatis, lectus vitae maximus ultricies, magna est hendrerit dolor, vel cursus nibh libero vitae ligula. Donec et metus vitae dui dignissim pharetra eget et justo. Morbi sollicitudin porttitor sem, bibendum tincidunt odio placerat at. Quisque efficitur orci ligula, ut interdum quam accumsan at. Donec tempus, velit eu dapibus aliquam, neque libero ullamcorper risus, et scelerisque nisi metus ut eros. Ut cursus dolor accumsan nulla porttitor, eu hendrerit urna faucibus. Aliquam feugiat ac turpis quis imperdiet. Aliquam efficitur egestas nisl, eu tempor lacus rutrum pretium. 
+          </strong>
+        </p>
     </div>
   </main>
 
